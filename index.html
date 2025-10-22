@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Портфолио Саламатов Ахмед</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Иконки FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- AOS: анимации при прокрутке -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+    <div class="background-effect"></div>
+
+    <div class="container">
+        <button id="theme-toggle" class="btn-secondary">Тёмная тема</button>
+
+        <header class="header">
+            <div class="logo">Саламатов Ахмед</div>
+            <nav class="nav" role="navigation" aria-label="Основное меню">
+                <a href="#about-section">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+                <button class="hamburger" aria-label="Открыть меню" aria-expanded="false">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero" id="about-section">
+            <div class="hero-content" data-aos="fade-up">
+                <!-- Приветствие будет пустым -->
+                <h1 id="greeting"></h1>
+                <p>Front-end разработчик | HTML, CSS, JS | Создаю адаптивные и современные интерфейсы</p>
+
+                <!-- Кнопка ввода имени -->
+                <div class="greet-box">
+                    <button id="askName" class="btn-secondary">Ввести имя</button>
+                </div>
+            </div>
+
+            <div class="hero-avatar" data-aos="fade-up">
+                <img src="c:\Users\user\Downloads\WhatsApp Image 2025-10-22 at 11.40.49 AM.jpeg" alt="Моя фотография">
+            </div>
+        </section>
+
+
+
+        <!-- Обо мне -->
+        <section class="about-me" id="about-section">
+            <div class="about-container" data-aos="fade-right">
+                <div class="about-photo">
+                    <img src="c:\Users\user\Downloads\frontend1.jpg" alt="Ахмед" />
+                </div>
+                <div class="about-text">
+                    <h2>Обо мне</h2>
+                    <p>Я — начинающий front-end разработчик, увлечённый созданием чистых, адаптивных и интуитивно понятных интерфейсов. Уверенно работаю с HTML5, CSS3, JavaScript, Flexbox и Grid. Постоянно развиваюсь, изучаю фреймворки и современные подходы
+                        в верстке и UI/UX-дизайне.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Навыки -->
+        <section class="skills-section" id="skills" data-aos="fade-up">
+            <h2>Мои навыки</h2>
+            <div class="skills-container">
+                <div class="skill" data-percent="90%">
+                    <div class="skill-label">HTML5 / CSS3</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                <div class="skill" data-percent="85%">
+                    <div class="skill-label">JavaScript </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                <div class="skill" data-percent="80%">
+                    <div class="skill-label">Адаптивная верстка (Flexbox, Grid)</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                <div class="skill" data-percent="70%">
+                    <div class="skill-label">Анимации (CSS / AOS / JS)</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                <div class="skill" data-percent="65%">
+                    <div class="skill-label">Git & GitHub</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Проекты -->
+        <section class="projects-section" id="projects" data-aos="fade-up">
+            <h2>Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="c:\Users\user\Downloads\responsive_website_design.jpg" alt="Проект 1" />
+                    <h3>Landing Page</h3>
+                    <p>Адаптивный одностраничный сайт с анимацией и современным дизайном, созданный с использованием HTML, CSS и JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="c:\Users\user\Downloads\konstruktor-ukit-vybor-shablona.jpg" alt="Проект 2" />
+                    <h3>Интерактивное портфолио</h3>
+                    <p>Личный сайт-портфолио с динамическими секциями, плавной прокруткой и формой обратной связи.</p>
+                </div>
+                <div class="project-card">
+                    <img src="c:\Users\user\Downloads\sait-vizitka.webp" alt="Проект 3" />
+                    <h3>Сайт визитка</h3>
+                    <p>Мини-сайт с адаптацией под мобильные устройства, интеграцией социальных сетей и минималистичным дизайном.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts-section" id="contacts" data-aos="fade-up">
+            <h2>Свяжитесь со мной</h2>
+            <div class="contacts-info">
+                <p>Email: <a href="mailto:akhmed.salamatov@alatoo.edu.kg">akhmed.salamatov@alatoo.edu.kg</a></p>
+                <p>Телефон: <a href="tel:+996 000 00 00 00">+996 700 01 10 01   </a></p>
+                <div class="socials">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-up">
+                <h3>Или отправьте сообщение</h3>
+                <form>
+                    <input type="text" placeholder="Ваше имя" required />
+                    <input type="email" placeholder="Ваш email" required />
+                    <textarea placeholder="Ваше сообщение" rows="4" required></textarea>
+                    <button type="submit" class="btn-primary">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer" data-aos="fade-in">
+        &copy; 2024 Саламатов Ахмед. Все права защищены.
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // === Приветствие ===
+            const greeting = document.getElementById('greeting');
+            const askNameBtn = document.getElementById('askName');
+            askNameBtn.addEventListener('click', () => {
+                const name = prompt('Как тебя зовут?');
+                greeting.textContent = name && name.trim() !== "" ?
+                    `${name}, добро пожаловать в моё портфолио!` :
+                    'Добро пожаловать!';
+            });
+
+            // === Переключатель темы ===
+            const themeToggle = document.getElementById('theme-toggle');
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.body.classList.add('light');
+                themeToggle.textContent = 'Тёмная тема';
+            }
+
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('light');
+                const isLight = document.body.classList.contains('light');
+                localStorage.setItem('theme', isLight ? 'light' : 'dark');
+                themeToggle.textContent = isLight ? 'Тёмная тема' : 'Светлая тема';
+            });
+
+            // === Гамбургер ===
+            const hamburger = document.querySelector('.hamburger');
+            const nav = document.querySelector('.nav');
+            hamburger.addEventListener('click', () => {
+                nav.classList.toggle('open');
+                const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+                hamburger.setAttribute('aria-expanded', !expanded);
+            });
+
+            document.querySelectorAll('.nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('open');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // === Кнопка "Наверх" ===
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) scrollTopBtn.classList.add('show');
+                else scrollTopBtn.classList.remove('show');
+            });
+
+            scrollTopBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // === Плавная прокрутка по якорям ===
+            document.querySelectorAll('a[href^="#"]').forEach(link => {
+                link.addEventListener('click', e => {
+                    e.preventDefault();
+                    const id = link.getAttribute('href');
+                    const target = document.querySelector(id);
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 60,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // === Анимации ===
+            AOS.init();
+        });
+    </script>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scrollTopBtn" class="scroll-top" title="Наверх" aria-label="Наверх">↑</button>
+
+
+</body>
+
+</html>
